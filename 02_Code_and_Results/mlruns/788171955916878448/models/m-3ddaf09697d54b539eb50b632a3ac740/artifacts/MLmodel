@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/hyndh/OneDrive/Desktop/Business_Analytics/mlruns/788171955916878448/models/m-3ddaf09697d54b539eb50b632a3ac740/artifacts
+flavors:
+  catboost:
+    catboost_version: 1.2.8
+    code: null
+    data: model.cb
+    model_type: CatBoostClassifier
+    save_format: cbm
+  python_function:
+    data: model.cb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.catboost
+    python_version: 3.10.1
+mlflow_version: 3.6.0
+model_id: m-3ddaf09697d54b539eb50b632a3ac740
+model_size_bytes: 47984576
+model_uuid: m-3ddaf09697d54b539eb50b632a3ac740
+prompts: null
+run_id: 0f4b9ce90d764056a80fbfb9f82c5211
+utc_time_created: '2025-11-25 20:01:15.075013'

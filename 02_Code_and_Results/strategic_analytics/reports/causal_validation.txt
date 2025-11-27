@@ -1,0 +1,11 @@
+Causal Validation Report
+========================
+Treatment: InternetAccess
+Outcome: GPA
+Estimated Effect: 0.2956138612218683
+
+Refutation Results (Placebo Treatment):
+Refute: Use a Placebo Treatment
+Estimated effect:0.2956138612218683
+New effect:0.004154027905465023
+p value:0.8600000000000001

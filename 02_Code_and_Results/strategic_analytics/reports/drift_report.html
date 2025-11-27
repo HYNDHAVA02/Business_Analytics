@@ -1,0 +1,20 @@
+
+    <html>
+    <head><title>Model Drift Report (PSI)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        table { border-collapse: collapse; width: 50%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .alert { color: red; font-weight: bold; }
+        .stable { color: green; font-weight: bold; }
+    </style>
+    </head>
+    <body>
+    <h1>Model Drift Report (Population Stability Index)</h1>
+    <table>
+        <tr><th>Feature</th><th>PSI Value</th><th>Status</th></tr>
+    <tr><td>StudyTimeWeekly</td><td>0.8565</td><td class='alert'>Drift Detected (Critical)</td></tr><tr><td>Absences</td><td>0.0395</td><td class='stable'>Stable</td></tr><tr><td>GPA</td><td>0.2195</td><td class='alert'>Drift Detected (Critical)</td></tr><tr><td>ParentalEducation</td><td>0.1379</td><td class='alert'>Warning</td></tr>
+    </table>
+    <br>
+    <h2 class='alert'>ALERT: Significant Model Drift Detected! Retraining Recommended.</h2></body></html>

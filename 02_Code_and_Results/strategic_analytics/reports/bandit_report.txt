@@ -1,0 +1,8 @@
+Contextual Bandit Simulation Results
+====================================
+Action: No Action, Value: 0.0333, Count: 60
+Action: Email Nudge, Value: 0.0714, Count: 28
+Action: Tutor, Value: 0.3600, Count: 50
+Action: Grant, Value: 0.6160, Count: 862
+
+Optimal Global Action: Grant

@@ -1,0 +1,50 @@
+checks:
+  no_nulls: true
+columns:
+  Absences:
+    checks:
+      min: 0
+    type: int
+  Extracurricular:
+    checks:
+      isin:
+      - 0
+      - 1
+    type: int
+  GPA:
+    checks:
+      max: 4.0
+      min: 0.0
+    type: float
+  Gender:
+    checks:
+      isin:
+      - 0
+      - 1
+    type: int
+  GradeClass:
+    checks:
+      max: 4
+      min: 0
+    type: int
+  InternetAccess:
+    checks:
+      isin:
+      - 0
+      - 1
+    type: int
+  ParentalEducation:
+    checks:
+      max: 4
+      min: 0
+    type: float
+  StudyTimeWeekly:
+    checks:
+      min: 0
+    type: float
+  Tutoring:
+    checks:
+      isin:
+      - 0
+      - 1
+    type: int

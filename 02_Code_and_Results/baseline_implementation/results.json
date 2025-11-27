@@ -1,0 +1,14 @@
+{
+    "model": "Random Forest (Tuned)",
+    "imputation": "Mean",
+    "scaling": "StandardScaler",
+    "best_params": {
+        "max_depth": null,
+        "min_samples_leaf": 4,
+        "min_samples_split": 10,
+        "n_estimators": 100
+    },
+    "accuracy": 0.8467269824374667,
+    "qwk": 0.7635944537884419,
+    "f1": 0.8284114271750171
+}

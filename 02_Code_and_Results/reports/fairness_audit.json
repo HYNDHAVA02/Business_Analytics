@@ -1,0 +1,10 @@
+{
+    "Gender": {
+        "demographic_parity_diff": 0.06501030781261108,
+        "equalized_odds_diff": 0.005032171324306112
+    },
+    "InternetAccess": {
+        "demographic_parity_diff": 0.4941711069773308,
+        "equalized_odds_diff": 0.14164485165794072
+    }
+}

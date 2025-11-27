@@ -1,0 +1,13 @@
+{
+    "confirmed_features": [
+        "ParentalEducation",
+        "StudyTimeWeekly",
+        "Absences",
+        "Tutoring",
+        "InternetAccess",
+        "DatasetType",
+        "Persona_Cluster"
+    ],
+    "tentative_features": [],
+    "high_vif_features": []
+}

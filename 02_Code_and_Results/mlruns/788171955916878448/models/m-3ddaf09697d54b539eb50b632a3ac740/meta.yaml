@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/hyndh/OneDrive/Desktop/Business_Analytics/mlruns/788171955916878448/models/m-3ddaf09697d54b539eb50b632a3ac740/artifacts
+creation_timestamp: 1764100874982
+experiment_id: '788171955916878448'
+last_updated_timestamp: 1764100878571
+model_id: m-3ddaf09697d54b539eb50b632a3ac740
+model_type: null
+name: model
+source_run_id: 0f4b9ce90d764056a80fbfb9f82c5211
+status: 2
+status_message: null
